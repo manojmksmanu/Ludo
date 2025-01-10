@@ -1,11 +1,10 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import LudoBoard from './src/screens/LudoBoard';
 
 const ComponentName = () => {
   return (
-    <View>
-      <Text>Hello, World!</Text>
-    </View>
+      <LudoBoard/>
   );
 };
 
