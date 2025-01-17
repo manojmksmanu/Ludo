@@ -4,6 +4,7 @@ import BG from '../assets/images/bg.jpg'; // Ensure this path is correct
 import {deviceHeight, deviceWidth} from '../constants/Scaling';
 
 export default function Wrapper({children, style}) {
+    console.log(BG)
   return (
     <ImageBackground
       source={BG}
